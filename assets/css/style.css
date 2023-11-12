@@ -1,0 +1,73 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+   
+
+
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+    margin: 10px 10px;
+}
+
+th{
+height: 40px;
+background-color: rgb(193, 192, 192);
+font-size:15px ;
+font-weight:bold ;
+}
+td {
+    height: 40px;
+    padding: 15px;
+    border: 1px solid orange;
+
+}
+table tr:hover{
+    background-color: rgba(255, 239, 206, 0.885);
+    cursor: pointer;
+   
+}
+table th{
+    border: none;
+}
+th:first-child{
+    border-top-left-radius:10px;
+}
+th:last-child{
+    border-top-right-radius:10px;
+
+}
+.search-box {
+    position: relative;
+}
+
+.search-box input{
+    margin: 10px 10px;
+    width: 800px;
+    height: 40px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding-left: 30px;
+
+}
+.search-box .fa-magnifying-glass{
+    position: absolute;
+    left: 18px;
+    bottom: 22px;
+    font-size: 20px;
+
+
+
+}
+.search-box button{
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color:orange;
+    width: 170px;
+    height: 42px;
+    color: #fff;
+    cursor: pointer;
+}
